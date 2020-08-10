@@ -57,7 +57,7 @@ public class OSLAB {
             time = time + v[i].time;
             System.out.println(v[i].name + ":" + time);
         }
-        //Shortest Job First
+        //Shortest Job First 
         System.out.println("Shortest Job First");
         for (int i = 0; i < (v1.length - 1); i++) {
             for (int j = 0; j < v1.length - i - 1; j++) {
